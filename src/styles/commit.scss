@@ -1,0 +1,90 @@
+.el-container {
+  height: 100%;
+}
+
+.el-header,
+.el-footer {
+  background-color: #b3c0d1;
+  color: #333;
+  text-align: center;
+  line-height: 60px;
+}
+
+.el-aside {
+  color: #333;
+  background-color: #fff;
+  text-align: center;
+  line-height: 200px;
+}
+
+.el-main {
+  background-color: #e9eef3;
+  color: #333;
+  text-align: center;
+  line-height: 160px;
+}
+
+body>.el-container {
+  margin-bottom: 40px;
+}
+
+.search_bar {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(244, 244, 245);
+}
+
+.search_bar_btn {
+  margin-top: 15px;
+}
+
+.grid-content {
+  height: 36px;
+  line-height: 36px;
+  color: var(--el-text-color-regular);
+}
+
+.my_tip {
+  color: #909399;
+  font-size: 13px;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+.my_descriptions {
+  margin-bottom: 25px;
+}
+
+.update_container {
+  .my_divider {
+    margin-top: 30px;
+
+    .el-divider__text {
+      font-size: 16px;
+      font-weight: bold;
+    }
+  }
+
+  .my_row {
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .my_radio {
+    padding: 0 10px;
+  }
+
+  .el-radio.el-radio--large {
+    height: 25px;
+    margin-right: 10px;
+  }
+
+  .my_icon_close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    z-index: 999;
+    font-size: 20px;
+  }
+}
